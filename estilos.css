@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS document */
+
+@font-face {
+    font-family: 'harry_pregular';
+    src: url('fonts/harryp__-webfont.woff2') format('woff2'),
+         url('fonts/harryp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	font-family: 'Zilla Slab', serif;
+	font-size: 20px;
+	color: #666;
+}
+
+h1, h2, h3{
+	font-family: 'harry_pregular';
+	color: black;
+}
+
+h1{
+	font-size: 3.25rem;
+}
+
+h2{
+	font-size: 2.25rem;
+	text-align: center;
+}
+h3{
+	font-size: 2.0rem;
+}
+
+aside a{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+nav{
+	font-weight: bold;
+}
+
+footer{
+	font-size: 18px;
+}
+
+footer a{
+	font-weight: bold;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: #666;
+	font-weight: 700;
+}
+
+a:hover{
+	color: black;
+}
+
+figcaption{
+	font-size: 13px;
+	font-style: italic;
+}
+
+section nav{
+	font-size: 22px;
+	font-weight: 900;
+}
